@@ -1,6 +1,19 @@
+
+# Python environment and cache
 .venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Environment variables and local databases
 .env
 *.db
+
+# Generated video outputs
+engine1/traffic_analytics.mp4
+engine1/traffic_detected.mp4
+engine1/traffic_demo.mp4
+engine1/traffic_tracked.mp4
+
+# Downloaded model weights
+yolov8n.pt
